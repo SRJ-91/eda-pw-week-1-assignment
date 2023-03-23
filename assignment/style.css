@@ -9,3 +9,49 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: teal;
+}
+
+header {
+    color: gold;
+    background-color: black;
+    text-align: center;
+    width: 100vw;
+    height: 5vh;
+}
+
+ul {
+    font-style: oblique;
+    margin-top: 2em;
+    font-size: larger;
+    margin-left: 5px;
+}
+
+footer {
+    color: gold;
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    bottom: 0;
+    position: fixed;
+    font-size: larger;
+}
+
+
+img {
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 1px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
